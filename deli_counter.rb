@@ -16,3 +16,7 @@ def line(order)
     puts string.chop
   end
 end
+
+def take_a_number(katz_deli, new_person)
+  puts ""
+end
