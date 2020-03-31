@@ -8,7 +8,7 @@ def line(order)
     return katz_deli.count
   end
 end
-insert pry
+binding pry
 def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli} in line."
 end
