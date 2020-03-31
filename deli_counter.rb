@@ -21,3 +21,11 @@ def take_a_number(katz_deli, new_person)
   puts "Welcome, #{new_person}. You are number #{katz_deli.count + 1} in line."
   katz_deli << "#{new_person}"
 end
+
+def now_serving(name)
+  if name == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{name}."
+  end
+end
