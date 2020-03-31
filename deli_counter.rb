@@ -3,7 +3,7 @@ require "pry"
 katz_deli = []
 def line(order)
   if katz_deli = 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else 
     return katz_deli.count
   end
