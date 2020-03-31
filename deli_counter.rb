@@ -17,7 +17,7 @@ def line(order)
   end
 end
 
-def take_a_number(number, new_person)
-  puts "Welcome, #{new_person}. You are number #{number + 1} in line."
+def take_a_number(katz_deli, new_person)
+  puts "Welcome, #{new_person}. You are number #{katz_deli + 1} in line."
   katz_deli << "#{new_person}"
 end
