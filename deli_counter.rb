@@ -18,5 +18,5 @@ def line(order)
 end
 
 def take_a_number(katz_deli, new_person)
-  puts ""
+  puts "Welcome, #{new_person}. You are number #{katz_deli.count} in line."
 end
