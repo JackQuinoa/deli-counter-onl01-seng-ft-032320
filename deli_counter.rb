@@ -1,12 +1,13 @@
 # Write your code here.
 require "pry"
+
 katz_deli = []
+
 def line(order)
   if katz_deli = 0
     puts "The line is currently empty."
   else 
     puts #{order} katz_deli.count
-  binding.pry
   end
 end
 
