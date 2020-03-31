@@ -10,7 +10,7 @@ def line(order)
     string = "The line is currently: "
     count = 0
    while count <= order.length do 
-     string+="1. Jack"
+     string+="1. #{order[count]}"
     count+=1
   end
     puts string
