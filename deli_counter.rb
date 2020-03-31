@@ -6,9 +6,10 @@ def line(order)
     return "The line is currently empty."
   else 
     return katz_deli.count
+    
   end
 end
-binding pry
+
 def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli} in line."
 end
