@@ -1,5 +1,5 @@
 # Write your code here.
-
+require "pry"
 katz_deli = []
 def line(order)
   if katz_deli.count = 0
@@ -8,7 +8,7 @@ def line(order)
     return katz_deli.count
   end
 end
-
+insert pry
 def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli} in line."
 end
