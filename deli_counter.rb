@@ -9,7 +9,7 @@ def line(order)
   else 
     string = "The line is currently: "
     count = 0
-   while count <= order.length do 
+   while count < order.length do 
      string+="#{count + 1}. #{order[count]} "
     count+=1
   end
