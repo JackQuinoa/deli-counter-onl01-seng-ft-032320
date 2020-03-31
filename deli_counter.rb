@@ -19,5 +19,5 @@ end
 
 def take_a_number(katz_deli, new_person)
   puts "Welcome, #{new_person}. You are number #{katz_deli.count + 1} in line."
-  katz_deli.push(#{new_person}
+  katz_deli << "#{new_person}"
 end
