@@ -6,6 +6,7 @@ def line(order)
     puts "The line is currently empty."
   else 
     puts #{order} katz_deli.count
+  binding pry
   end
 end
 
