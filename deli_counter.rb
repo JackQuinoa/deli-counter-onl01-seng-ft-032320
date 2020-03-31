@@ -7,7 +7,7 @@ def line(order)
   if katz_deli = 0
     puts "The line is currently empty."
   else 
-    puts "#{order} katz_deli.count"
+    puts "
   end
 end
 
