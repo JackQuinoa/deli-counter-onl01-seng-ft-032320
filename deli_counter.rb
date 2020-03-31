@@ -8,8 +8,11 @@ def line(order)
     puts "The line is currently empty."
   else 
     string = "The line is currently: "
-    
-    
-    
+    count = 0
+   while count <= order.length do 
+     string+="1. Jack"
+    count+=1
+  end
+    puts string
   end
 end
