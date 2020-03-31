@@ -13,6 +13,6 @@ def line(order)
      string+="#{count + 1}. #{order[count]}"
     count+=1
   end
-    puts string
+    puts string.chop
   end
 end
